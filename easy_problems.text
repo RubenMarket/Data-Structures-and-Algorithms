@@ -1,0 +1,77 @@
+
+- Array-Dictionary-Hash Table-Hash Map
+
+217. Contains Duplicate
+https://leetcode.com/problems/contains-duplicate/
+Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+
+242. Valid Anagram
+https://leetcode.com/problems/valid-anagram/
+Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+
+1. Two Sum
+https://leetcode.com/problems/two-sum/
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+You can return the answer in any order.
+
+- Two Pointer
+
+125. Valid Palindrome
+https://leetcode.com/problems/valid-palindrome/
+A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
+Given a string s, return true if it is a palindrome, or false otherwise.
+
+
+- Sliding Window
+
+121. Best Time to Buy and Sell Stock
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+You are given an array prices where prices[i] is the price of a given stock on the ith day.
+You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.
+Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
+
+
+- Stack
+
+20. Valid Parentheses
+https://leetcode.com/problems/valid-parentheses/
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+An input string is valid if:
+Open brackets must be closed by the same type of brackets.
+Open brackets must be closed in the correct order.
+
+155. Min Stack
+https://leetcode.com/problems/min-stack/
+Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+Implement the MinStack class:
+MinStack() initializes the stack object.
+void push(int val) pushes the element val onto the stack.
+void pop() removes the element on the top of the stack.
+int top() gets the top element of the stack.
+int getMin() retrieves the minimum element in the stack.
+
+
+- Binary Search
+
+704. Binary Search
+https://leetcode.com/problems/binary-search/
+Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums. If target exists, then return its index. Otherwise, return -1.
+You must write an algorithm with O(log n) runtime complexity.
+
+
+- Linked List
+
+206. Reverse Linked List
+https://leetcode.com/problems/reverse-linked-list/
+Given the head of a singly linked list, reverse the list, and return the reversed list.
+
+21. Merge Two Sorted Lists
+https://leetcode.com/problems/merge-two-sorted-lists/
+You are given the heads of two sorted linked lists list1 and list2.
+Merge the two lists in a one sorted list. The list should be made by splicing together the nodes of the first two lists.
+Return the head of the merged linked list.
+
+
+- Trees
