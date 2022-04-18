@@ -1,4 +1,16 @@
+// Strings
 
+extension String {
+    var isAlphanumeric: Bool {
+        return !isEmpty && range(of: "[^a-zA-Z0-9]", options: .regularExpression) == nil
+    }
+}
+
+let aString:String = "123"
+var astring:String = "abc"
+
+
+aString.isAlphanumeric // Assert True
 // Arrays
 
 let anArray:[Element] = [] // also = let anArray:[Element]() 
