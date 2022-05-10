@@ -18,7 +18,7 @@ func isAnagram(s: String,t: String) -> Bool {
     if s.count != t.count { return false }
     if s.sorted() == t.sorted() { return true }
 }
-
+// Hash table
 // 1. Two Sum
 // https://leetcode.com/problems/two-sum/
 // Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
@@ -43,7 +43,7 @@ func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
 }
 // O(n) time
 
-
+// Two Pointer
 // 125. Valid Palindrome
 // https://leetcode.com/problems/valid-palindrome/
 // A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
@@ -74,3 +74,26 @@ var p1:Int = 0
     }
     return true
 }
+
+
+// Sliding Window
+// 121. Best Time to Buy and Sell Stock
+// https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+// You are given an array prices where prices[i] is the price of a given stock on the ith day.
+// You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.
+// Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
+
+func maxProfit(_ prices: [Int]) -> Int {
+if prices.count == 1 { return 0 }
+
+var leftPointer = 0
+var profit = 0
+
+for price in prices {
+    leftPointer = min(leftPointer,price)
+    profit = max(profit,leftPointer - price)
+}
+return profit
+        
+ }
+
